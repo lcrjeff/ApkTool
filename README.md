@@ -1,5 +1,6 @@
 # ApkTool
 渠道快速打包工具，java版本
+渠道号放在META-INF
 
 1.编辑需要打包的渠道
 
@@ -12,4 +13,9 @@
 4.拖动渠道文件到指定位置
 
 5.点击运行
+
+
+1.读取方法META-INF渠道号，使用类方法
+ChannelUtil.getChannel();
+
 
